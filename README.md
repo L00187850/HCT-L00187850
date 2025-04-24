@@ -9,7 +9,7 @@ This repository contains documentation for a server rack setup, including equipm
 - VAT calculations for each item
 - Category organization (Servers, Networking, Power Distribution, etc.)
 - Total costs before and after VAT
-- Links to equipment is found in the Cell notes of the pricing plan.
+- Links to equipment is found in the cell notes of the pricing plan.
 
 ### 2. Server Rack Layout Diagram
 - Detailed vertical layout of server rack components

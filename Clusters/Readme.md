@@ -1,16 +1,16 @@
 # VMware Cluster with vCenter Server - Standard Operating Procedure (SOP)
 
 ## Overview
-This document outlines the step-by-step process for building a VMware cluster consisting of three ESXi hosts and a vCenter Server instance using VMware Workstation. The procedure is designed for testing purposes before implementation in production environments.
+This document outlines the step-by-step process for building a VMware cluster consisting of three ESXi hosts and a vCenter Server instance using VMware Workstation.
 
 ## Purpose
-The SOP ensures a standardized deployment of a VMware cluster for Electric Petrol's first data center implementation. It provides clear instructions for technicians to follow, ensuring consistency and reliability in the setup.
+The SOP provides a standard deployment of a VMware cluster for Electric Petrol's first data center implementation. It provides clear instructions for technicians to follow.
 
 ## Key Components
 - **ESXi Hosts**: Three hosts configured with VMware ESXi.
 - **vCenter Server**: Centralized management for the VMware cluster.
 - **Network Configuration**: Detailed IP allocations for management, vMotion, and VM networks.
-- **Storage and High Availability**: Shared storage and optional HA configurations.
+- **Storage and High Availability**: Shared storage and optional High Availability configurations.
 
 ## Prerequisites
 ### Software
@@ -25,7 +25,7 @@ The SOP ensures a standardized deployment of a VMware cluster for Electric Petro
 
 ### Network
 - Static IP addresses for ESXi hosts, vCenter Server, and DNS/NTP servers.
-- Private network segment for management (VMnet2 recommended).
+- Private network segment for management.
 
 ## Procedure
 1. **Prepare the Environment**  
@@ -39,7 +39,7 @@ The SOP ensures a standardized deployment of a VMware cluster for Electric Petro
    - Install and configure vCenter Server with static IP and SSO domain.
 
 4. **Create VMware Cluster**  
-   - Set up a Datacenter and cluster in vCenter, enabling DRS and HA.
+   - Set up a Datacenter and cluster in vCenter, enabling Disaster Recovery and High Availability.
 
 5. **Configure Storage and Network**  
    - Add shared datastores and configure standard/distributed switches.
@@ -53,7 +53,7 @@ The SOP ensures a standardized deployment of a VMware cluster for Electric Petro
 - Ensure backup system accessibility.
 
 ## Output
-- Document IPs/hostnames in CMDB.
+- Document IPs/hostnames.
 - Create build book with cluster specs and network diagram.
 - Handover documentation to operations team.
 
@@ -63,5 +63,5 @@ The SOP ensures a standardized deployment of a VMware cluster for Electric Petro
 - **Cross-Site Connectivity & Failover**: Procedures for DR and test environments.
 
 ## Revision History
-- **Version 1.0**: Initial release (22 May 2025).
+- **Version 1.0**: Initial release (29 May 2025).
 

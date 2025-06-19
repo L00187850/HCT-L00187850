@@ -1,4 +1,4 @@
-# Technical Design Report: Virtualization Cluster Upgrade for electric-petrol.ie
+# Technical Design Report: Virtualisation Cluster Upgrade for electric-petrol.ie
 
 **Author:** Philip Stewart
 **Date:** June 19, 2025

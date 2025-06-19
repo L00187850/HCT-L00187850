@@ -5,7 +5,7 @@
 
 ## Document Overview: 
 
-This document, formally known as the "Technical Design Report: Virtualization Cluster Upgrade for electric-petrol.ie", outlines a detailed plan to transform electric-petrol.ie's current two-host virtualization setup into a more robust three-node Hyper-V failover cluster with shared storage.
+This document, formally known as the "Technical Design Report: Virtualisation Cluster Upgrade for electric-petrol.ie", outlines a detailed plan to transform electric-petrol.ie's current two-host virtualisation setup into a more robust three-node Hyper-V failover cluster with shared storage.
 
 The core objective is to significantly enhance system resilience and ensure continuous availability of critical services by mitigating the impact of single server failures.
 

@@ -11,7 +11,7 @@ The core objective is to significantly enhance system resilience and ensure cont
 
 The report comprehensively covers various aspects of the proposed upgrade, including:
 * **New Infrastructure:** Detailed server specifications, storage solutions (like Storage Spaces Direct or SAN), network adjustments for high availability, and Hyper-V cluster configurations.
-* **AAA Integration:** Re-engineering Authentication, Authorization, and Accounting (AAA) services for better integration with Active Directory.
+* **AAA Integration:** Re-engineering Authentication, Authorisation, and Accounting (AAA) services for better integration with Active Directory.
 * **Implementation Strategy:** Step-by-step implementation procedures, identified risks and their mitigation strategies, and tailored deployment approaches for multiple branch sites.
 
 The upgrade also leverages existing Windows Server Datacentre licensing, providing additional benefits like live migration and simplified management without extra cost.

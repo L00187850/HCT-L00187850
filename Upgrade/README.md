@@ -2,9 +2,8 @@
 
 **Author:** Philip Stewart
 **Date:** June 19, 2025
-
 |------------------------------------------------------------------------|
-|								Description						 		 |
+|Description						 									 |
 |The document within this repo (both the docx file and the PDF) details  |
 |a plan to upgrade electric-petrol.ie's current two-host virtualization  |
 |setup to a three-node Hyper-V failover cluster with shared storage.	 |

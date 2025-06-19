@@ -19,4 +19,4 @@
 |																		 |
 |The upgrade also leverages existing Windows Server Datacentre licensing |
 |for additional benefits like live migration and simplified management	 |
-
+|------------------------------------------------------------------------|
